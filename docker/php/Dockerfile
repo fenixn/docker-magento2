@@ -6,5 +6,6 @@ RUN apk update; \
     apk add libxml2-dev \
     libpng-dev \
     icu-dev \
-    libxslt-dev; \
+    libxslt-dev \
+    libzip-dev; \
     docker-php-ext-install bcmath gd intl pdo_mysql soap xsl zip;
