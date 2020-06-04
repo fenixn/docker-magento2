@@ -10,5 +10,5 @@ docker-compose up
 ```
 3. Change to public directory and build Magento 2 with Composer:
 ```
-composer install
+composer update
 ```
