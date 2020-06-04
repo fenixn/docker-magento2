@@ -8,3 +8,7 @@ This is a basic setup for Magento 2 with NGINX, PHP, MySQL and PHPMyAdmin.
 ```
 docker-compose up
 ```
+3. Change to public directory and build Magento 2 with Composer:
+```
+composer update
+```
